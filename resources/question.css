@@ -1,0 +1,36 @@
+.page {
+    page-break-after: always;
+    page-break-inside: avoid;
+}
+
+body {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+}
+
+h1 {
+    font-size: 37px;
+    margin-top: 30px;
+}
+
+.facit{
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    text-transform: none;
+}
+.facit p{
+    margin: 0 0 2px 0;
+}
+
+.facit .question{
+    margin-bottom:15px;
+}

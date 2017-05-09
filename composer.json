@@ -1,0 +1,33 @@
+{
+    "name": "larsemil/quiz-maker",
+    "type": "cli",
+    "authors": [
+        {
+            "name": "Emil Österlund",
+            "email": "emil@larsemil.se"
+        }
+    ],
+    "require": {
+        "oscarotero/env": "^1.0",
+        "vlucas/phpdotenv": "^2.4",
+        "Symfony/finder": "^3.2",
+        "knplabs/knp-snappy": "^0.4.3",
+        "league/csv": "^8.2",
+        "philo/laravel-blade": "^3.1",
+        "h4cc/wkhtmltopdf-amd64": "^0.12.3"
+    },
+    "autoload" : {
+        "psr-4":{
+            "Dalnix\\Base\\": "src/",
+            "Dalnix\\Commands\\": "commands/"
+        },
+        "files": [
+            "src/helpers.php"
+        ],
+        "classmap":[
+            "commands/"
+        ]
+
+    },
+    "bin": ["bin/quiz-maker"]
+}

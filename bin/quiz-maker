@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+
+$loader = require_once('vendor/autoload.php');
+
+// the parameters that this tool needs to function properly.
+$neededEnvironmentParameters = ['TERM'];
+
+//config file to load. first argument is path, second filename.
+$configFile = ['/usr/local/etc', 'warden.conf'];
+
+$cmd = new \Dalnix\Base\Handler($argv, $neededEnvironmentParameters, $configFile,$loader);
+$cmd->run();
