@@ -9,6 +9,14 @@ It is rather straightforward to use.
 ```
 
 This will generate a PDF from the csv.
+#### CSV format
+Use the following format in your csv file.
+```
+Question,Answer1,Answer2,Answer3,Correct,Image
+Vad är skalmans viktigaste uppfinning?,Självgående skottkärran,Mat och sovklockan,Sin helikopter,2,
+Vad är Dalarna?,Ett län,Ett land,En by,1,http://www.lansstyrelsen.se/dalarna/SiteCollectionImages/Sv/djur-och-natur/skyddad-natur/hela-lanet-400px.gif
+```
+
 
 ###Styling
 
